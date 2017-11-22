@@ -1,0 +1,24 @@
+<div class="w3-container">
+    <table class="w3-table w3-bordered w3-striped">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <tr ng-repeat="Contact in contacts | orderBy: 'fName' ">
+            <td>{{ Contact.fName }}</td>
+            <td>{{ Contact.lName }}</td>
+            <td>{{ Contact.email }}</td>
+            <td>{{ Contact.phone }}</td>
+            <td>
+                <button class="w3-btn w3-ripple" ng-click="goToEdit(Contact.id)">&#9998; Edit</button>
+            </td>
+            <td>
+                <button class="w3-btn w3-ripple w3-red" ng-click="deleteContact(Contact.id)">&#9998; X</button>
+            </td>
+        </tr>
+    </table>
+</div>

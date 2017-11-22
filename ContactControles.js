@@ -1,73 +1,144 @@
-angular.module('myApp', []).controller('contactsCtrl', function($scope,$http) {
-$scope.fName = '';
-$scope.lName = '';
-$scope.email = '';
-$scope.phone = '';
+var app = angular.module('myApp', ["ngRoute"]);
 
-var url="Contacts.txt";
-$http.get(url).then( function(response) {
- $scope.Contacts = response.data;
-  });
+app.config(function($routeProvider,$locationProvider) {
+     $routeProvider.when('/', {
+               templateUrl : 'home.html',
+               controller: 'contactsCtrl'
+     }).when('/editContact/:contact_index', {
+               templateUrl : 'addContact.html',
+               controller: 'editCtrl'
+     }).when('/addContact', {
+               templateUrl : 'addContact.html',
+               controller: 'addCtrl'
+                         }).otherwise({
+         redirectTo: '/'
+                         });
+ });
 
+app.controller('contactsCtrl', function($scope,ContactService,$http,$location,$window) {
 
-$scope.edit = true;
-$scope.showList = true;
-$scope.error = false;
-$scope.incomplete = false; 
+$scope.contacts = ContactService.getContacts();
 
-$scope.showLists =function(){
-$scope.showList = true;
+$scope.goToHome =function(path){
+
+$location.path(path);
 }
 
-$scope.editContact = function(id) {
-  $scope.showList = false;
-  if (id == 'new') {
-    $scope.edit = true;
-    $scope.incomplete = true;
-    $scope.fName = '';
-    $scope.lName = '';
-	$scope.email = '';
-	$scope.phone = '';
-    } else 
-	{
-    $scope.edit = false;
-    $scope.fName = $scope.Contacts[id-1].fName;
-    $scope.lName = $scope.Contacts[id-1].lName; 
-	$scope.email = $scope.Contacts[id-1].email;
-    $scope.phone = $scope.Contacts[id-1].phone;
-  }
-};
-
-$scope.saveEditContact =function(id) {
-     $scope.Contacts[id-1].fName = $scope.fName;
-     $scope.Contacts[id-1].lName = $scope.lName; 
-	 $scope.Contacts[id-1].email = $scope.email ;
-     $scope.Contacts[id-1].phone = $scope.phone;	
-	
+$scope.goToEdit =function(contact_index){
+if(contact_index =="new")
+{$location.url("/addContact");}
+else{
+$location.url("/editContact/"+contact_index);
+}
 }
 
-$scope.deleteUser = function(id) {
-$scope.Contacts.splice(id-1, 1);
+$scope.deleteContact = function(id) {
+
+
+    var deleteUser = $window.confirm('Are you sure you want to delete the Ad?');
+         if(deleteUser){
+          ContactService.deleteContact(id);
+          alert("The Contact was deleted");
+         }
+    else  alert("The Contact wasn't deleted yet");
 }
-
-$scope.saveNewContact = function(id){
-
-	$scope.max = Math.max.apply(Math,$scope.Contacts.map(function(Contacts){return Contacts.id;}));
-	$scope.Contacts.push({"id":$scope.max+1, "fName": $scope.fName ,"lName": $scope.lName ,"email": $scope.email ,"phone": $scope.phone});
-
-}
-
-$scope.$watch('fName', function() {$scope.test();});
-
-$scope.$watch('lName', function() {$scope.test();});
-
-$scope.test = function() {
-  $scope.incomplete = false;
-  if ($scope.edit && (!$scope.fName.length ||
-  !$scope.lName.length ||
-  !$scope.passw1.length || !$scope.passw2.length || !$scope.fName.length )) {
-     $scope.incomplete = true;
-  }
-};
 
 });
+
+app.controller('editCtrl', function($scope,ContactService,$routeParams,$location){
+  $scope.edit=ContactService.edit;
+  var index = $routeParams.contact_index;
+  var contacts = ContactService.getContacts();
+  $scope.currentContact = contacts[index];
+    $scope.saveEditContact = function()
+    {
+    alert("Edit Successfully");
+    $location.path('/home');
+    }
+
+  $scope.goToHome =function(path){
+  $location.path(path);
+  }
+});
+
+app.controller('addCtrl', function($scope,ContactService,$routeParams,$location){
+$scope.edit = false;
+$scope.contacts= ContactService.getContacts();
+$scope.edit=true;
+     $scope.addContact = function () {
+       var contact = $scope.currentContact;
+       contact.id = $scope.contacts.length;
+       ContactService.addContact(contact);
+       alert("Successfully Saved");
+       $location.path('/home');
+       }
+     });
+
+app.factory('ContactService',function ($http) {
+     var factory = {};
+     var edit=false;
+     var contactList=[
+     {
+                         "id":0,
+                            "fName" : "Alaa",
+                            "lName" : "Maher",
+                            "email" : "s@hotmail.com",
+                      	  "phone" : 1110
+                         },
+
+                      	{
+                      	  "id":1,
+                            "fName" : "Marko",
+                            "lName" : "Nazmy",
+                            "email" : "n@hotmail.com",
+                      	  "phone" : 1010111
+                          },
+                         {
+                            "id":2,
+                            "fName" : "Mahmoud",
+                            "lName" : "ahmed",
+                            "email" : "y@hotmail.com",
+                      	  "phone" : 10100
+                         },
+
+                         {
+                              "id":3,
+                            "fName" : "Sara",
+                            "lName" : "emad",
+                            "email" : "k@hotmail.com",
+                      	  "phone" : 412112
+                         },
+                         {
+                            "id":4,
+                            "fName" : "Ahmed",
+                            "lName" : "Ragheb",
+                            "email" : "h@hotmail.com",
+                      	  "phone" : 42852
+                         }];
+
+
+
+     factory.getContacts = function () {
+       return contactList;
+     }
+
+     factory.deleteContact =function (id)
+     {
+
+     var index = -1;
+     for (var i = 0 ; i < contactList.length ; i++)
+          {
+          if(contactList[i].id == id)index = i;
+          }
+     contactList.splice(index, 1);
+
+     }
+
+
+    factory.addContact =function(contact){
+     contactList.push(contact);
+     }
+
+
+     return factory;
+   });
