@@ -15,33 +15,31 @@ app.config(function($routeProvider,$locationProvider) {
                          });
  });
 
-app.controller('contactsCtrl', function($scope,ContactService,$http,$location,$window) {
+app.controller('contactsCtrl', function($scope, ContactService, $http, $location, $window) {
+  $scope.contacts = ContactService.getContacts(); //Yehia: Tabs Tabs
+  $scope.goToHome =function(path) {
+    $location.path(path);
+  }
 
-$scope.contacts = ContactService.getContacts();
+  $scope.goToEdit =function(contact_index) {
+    if(contact_index =="new") {
+      $location.url("/addContact");
+    }
+    else {
+      $location.url("/editContact/"+contact_index);
+    }
+  }
 
-$scope.goToHome =function(path){
-
-$location.path(path);
-}
-
-$scope.goToEdit =function(contact_index){
-if(contact_index =="new")
-{$location.url("/addContact");}
-else{
-$location.url("/editContact/"+contact_index);
-}
-}
-
-$scope.deleteContact = function(id) {
-
-
+  $scope.deleteContact = function(id) {
     var deleteUser = $window.confirm('Are you sure you want to delete the Ad?');
-         if(deleteUser){
-          ContactService.deleteContact(id);
-          alert("The Contact was deleted");
-         }
-    else  alert("The Contact wasn't deleted yet");
-}
+    if(deleteUser) {
+      ContactService.deleteContact(id);
+      alert("The Contact was deleted");
+    }
+    else  {
+      alert("The Contact wasn't deleted yet");
+    }
+  }
 
 });
 
