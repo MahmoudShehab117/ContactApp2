@@ -1,0 +1,34 @@
+[
+   {
+      "fName" : "alaa",
+      "lName" : "Maher",
+      "email" : "s@hotmail.com",
+	  "phone" : 1110
+   },
+	
+	{
+      "fName" : "Marko",
+      "lName" : "Nazmy",
+      "email" : "n@hotmail.com",
+	  "phone" : 1010111
+    },
+   {
+      "fName" : "Mahmoud",
+      "lName" : "ahmed",
+      "email" : "y@hotmail.com",
+	  "phone" : 10100
+   },
+	
+   {
+      "fName" : "Sara",
+      "lName" : "emad",
+      "email" : "k@hotmail.com",
+	  "phone" : 412112
+   },
+   {
+      "fName" : "Ahmed",
+      "lName" : "Ragheb",
+      "email" : "h@hotmail.com",
+	  "phone" : 42852
+   }
+]
