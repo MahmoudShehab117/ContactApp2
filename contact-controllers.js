@@ -15,6 +15,7 @@ app.config(function($routeProvider,$locationProvider) {
                          });
  });
 
+
 app.controller('contactsListController', function($scope,ContactService,$location,$window) {
 
     $scope.contacts = ContactService.getContacts();
