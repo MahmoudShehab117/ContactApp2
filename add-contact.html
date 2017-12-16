@@ -1,0 +1,24 @@
+<div class="w3-container">
+
+    <form>
+        <h3 ng-show="editHideFlag">Add New Contact:</h3>
+        <h3 ng-show="!editHideFlag">Edit Contact:</h3>
+        <label>First Name:</label>
+        <input class="w3-input w3-border" type="text" ng-model="contact.firstName" placeholder="First Name">
+        <br/>
+        <label>Last Name:</label>
+        <input class="w3-input w3-border" type="text" ng-model="contact.lastName" placeholder="Last Name">
+        <br/>
+        <label>email:</label>
+        <input class="w3-input w3-border" type="email" ng-model="contact.email" placeholder="email">
+        <br/>
+        <label>phone Number:</label>
+        <input class="w3-input w3-border" type="text" ng-model="contact.phone" placeholder="phone Number">
+        <br/>
+        <button ng-show="!editHideFlag" ng-click="saveEditContact()" class="w3-btn w3-green w3-ripple">&#10004; Save Edits</button>
+        <br/>
+        <button ng-show="editHideFlag"  ng-click="addContact(contact)" class="w3-btn w3-green w3-ripple">&#10004; Save</button>
+
+    </form>
+
+</div>
