@@ -1,18 +1,18 @@
 angular.module('Services')
 
 .factory('ContactService', function($resource) {
-                                 return $resource('http://localhost:5000/contacts/:id', { id: '@_id' }, {
-                                   update: {
-                                     method: 'PUT'
-                                   }
-                                 });
-                               })
+     return $resource('http://localhost:5000/contacts/:id', { id: '@_id' }, {
+       update: {
+         method: 'PUT'
+       }
+     });
+   })
 
 .factory('AuthenticationService', function ($resource){
 
                  var LoginResource = $resource("http://localhost:5000/users");
                  var serviceObject = {loginUser: function (userName, password){
-                     return LoginResource.save({}, {userName: userName, password: password}).$promise; //this promise will be fulfilled when the response is retrieved for this call
+                     return LoginResource.save({}, {userName: userName, password: password}).$promise;
                  }};
                  return serviceObject;
            })
@@ -40,12 +40,9 @@ angular.module('Services')
                 $http.defaults.headers.common.Authorization = 'Basic ';
             };
             return service;
-
  })
 
 .factory('Base64', function () {
-       //jshint ignore:start
-
       var keyStr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
 
       return {

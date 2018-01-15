@@ -34,16 +34,16 @@ trait ContactResource extends MyResource {
     } ~
     path(Segment) { id =>
       get {
-        complete( contactService.getContact(BigInt(id)))
+        complete( contactService.getContact(id.toInt))
 
       } ~
       put {
         entity(as[ContactUpdate]) { update =>
-          complete(contactService.updateContact(BigInt(id), update))
+          complete(contactService.updateContact(id.toInt, update))
         }
       } ~
       delete {
-        complete(contactService.deletedContact(BigInt(id)))
+        complete(contactService.deletedContact(id.toInt))
       }
     }
 

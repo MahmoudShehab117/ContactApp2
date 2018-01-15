@@ -1,31 +1,39 @@
 package BackEnd.services
 
 import BackEnd.entity.{Contact, ContactUpdate}
-
+import io.getquill._
 import scala.concurrent.{ExecutionContext, Future}
-import scala.io.Source
+//import scala.io.Source
+
+
 
 class ContactService(implicit  val executionContext : ExecutionContext) {
 
-  var contacts=Vector.empty[Contact];
+  lazy val ctx = new H2JdbcContext(CamelCase, "DataBase")
+  import ctx._
 
-  def createContact(contact:Contact):Future[Option[BigInt]]=Future{
+  def createContact(contact:Contact):Future[Option[Contact]]=Future{
 
-    contacts.find(_.id==contact.id) match {
-      case Some(q)=> None
-      case None => contacts = contacts :+ contact
-        Some(contact.id)
-
+    val findContact = ctx.run( quote {query[Contact].filter(_.id == lift(contact.id))}).headOption
+      findContact match {
+      case Some(_)=> None
+      case None => ctx.run(quote {query[Contact].insert(lift(contact))})
+        Some(contact)
     }
   }
 
-  def getContact(id :BigInt):Future[Option[Contact]] = Future{
-    contacts.find(_.id==id)
+  def getContact(id :Int):Future[Option[Contact]] = Future{
+    def contact = ctx.run( quote {query[Contact].filter(_.id == lift(id))})
+    Some(Contact(contact.head.id,contact.head.firstName,contact.head.lastName,contact.head.email,contact.head.phone))
   }
 
-  def getAllContacts():Future[Option[Vector[Contact]]] = Future{Some(contacts)}
+  def getAllContacts():Future[Option[Vector[Contact]]] = Future{
 
-  def updateContact(id:BigInt, update:ContactUpdate):Future[Option[Contact]]={
+    val getAllContacts = ctx.run(quote {query[Contact]})
+
+    Some(getAllContacts.toVector)}
+
+  def updateContact(id:Int, update:ContactUpdate):Future[Option[Contact]]={
 
     def updateEntity(contact :Contact):Contact={
       val fName = update.firstName.getOrElse(contact.firstName)
@@ -42,7 +50,7 @@ class ContactService(implicit  val executionContext : ExecutionContext) {
   }
 }}
 
-  def deletedContact(id:BigInt):Future[Unit]=Future{
-    contacts = contacts.filterNot(_.id==id)
+  def deletedContact(id:Int):Future[Unit]=Future{
+    ctx.run(quote {query[Contact].filter(_.id == lift(id)).delete})
   }
 }

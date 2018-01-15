@@ -1,15 +1,10 @@
-
-import BackEnd.entity.Contact
 import akka.actor._
 import akka.http.scaladsl.Http
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.typesafe.config.ConfigFactory
-import org.json4s.native.Json
-
 import scala.concurrent.duration._
-import scala.io.Source
-import scala.util.parsing.json._
+
 
 object Main extends App with RestInterface {
   val config = ConfigFactory.load()

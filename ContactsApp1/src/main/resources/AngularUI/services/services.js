@@ -1,12 +1,12 @@
 angular.module('Services')
 
 .factory('ContactService', function($resource) {
-                                 return $resource('http://localhost:5000/contacts/:id', { id: '@_id' }, {
-                                   update: {
-                                     method: 'PUT'
-                                   }
-                                 });
-                               })
+     return $resource('http://localhost:5000/contacts/:id', { id: '@_id' }, {
+       update: {
+         method: 'PUT'
+       }
+     });
+   })
 
 .factory('AuthenticationService', function ($resource){
 

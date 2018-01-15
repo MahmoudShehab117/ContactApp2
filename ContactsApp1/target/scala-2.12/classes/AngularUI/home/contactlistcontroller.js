@@ -1,5 +1,5 @@
 angular.module('ContactListModule')
-.controller('contactsListController', function($scope,ContactService,$location,$window) {
+.controller('contactsListController', function($scope,ContactService,$window) {
 
     $scope.logout=true;
     $scope.contacts = ContactService.query();
