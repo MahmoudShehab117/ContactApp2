@@ -3,7 +3,7 @@ import akka.http.scaladsl.Http
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.typesafe.config.ConfigFactory
-import scala.concurrent.duration._
+
 
 
 object Main extends App with RestInterface {
@@ -16,7 +16,7 @@ object Main extends App with RestInterface {
 
 
   implicit val executionContext = system.dispatcher
-  implicit val timeout = Timeout(10 seconds)
+
 
   val api = routes
 
@@ -24,5 +24,6 @@ object Main extends App with RestInterface {
     println(s"REST interface bound to ${binding.localAddress}") } recover { case ex =>
     println(s"REST interface could not bind to $host:$port", ex.getMessage)
   }
+
 
 }

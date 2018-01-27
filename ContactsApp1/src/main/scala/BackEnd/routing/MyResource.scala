@@ -2,13 +2,14 @@ package BackEnd.routing
 
 import akka.http.scaladsl.marshalling.{ToResponseMarshallable, ToResponseMarshaller}
 import BackEnd.serializer.JsonSupport
-
 import scala.concurrent.{ExecutionContext, Future}
 import akka.http.scaladsl.server.{Directives, Route}
 import akka.http.scaladsl.model.headers.Location
 
-trait MyResource extends Directives with JsonSupport{
+
+trait MyResource extends Directives with JsonSupport {
   implicit def executionContext: ExecutionContext
+
 
   def completeWithLocationHeader[T](resourceId: Future[Option[T]], ifDefinedStatus: Int, ifEmptyStatus: Int): Route =
     onSuccess(resourceId) {

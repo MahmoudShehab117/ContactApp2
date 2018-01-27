@@ -7,11 +7,6 @@ import scala.concurrent.{ExecutionContext, Future}
 
 class UserService(implicit  val executionContext : ExecutionContext) {
 
-  var users=Vector.empty[Users]
-  users = users :+ Users("admin","password")
-  users = users :+ Users("test","test")
-
-
   lazy val ctx = new H2JdbcContext(CamelCase, "DataBase")
   import ctx._
 
@@ -37,10 +32,6 @@ class UserService(implicit  val executionContext : ExecutionContext) {
       case None => None
       case Some(u)=> Some(user.userName)
     }
-
-
-
-
   }
 
 }

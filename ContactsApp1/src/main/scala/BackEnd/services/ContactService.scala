@@ -46,11 +46,11 @@ class ContactService(implicit  val executionContext : ExecutionContext) {
       mayBeContact match {
         case None => Future{None}
         case Some(contact)=> val updatedContact = updateEntity(contact)
-          deletedContact(id).flatMap {_ => createContact(updatedContact).map(_ => Some(updatedContact))}
+          deleteContact(id).flatMap {_ => createContact(updatedContact).map(_ => Some(updatedContact))}
   }
 }}
 
-  def deletedContact(id:Int):Future[Unit]=Future{
+  def deleteContact(id:Int):Future[Unit]=Future{
     ctx.run(quote {query[Contact].filter(_.id == lift(id)).delete})
   }
 }
