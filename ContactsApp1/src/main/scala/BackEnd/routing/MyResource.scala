@@ -10,26 +10,27 @@ import akka.http.scaladsl.model.headers.Location
 trait MyResource extends Directives with JsonSupport {
   implicit def executionContext: ExecutionContext
 
-
-  def completeWithLocationHeader[T](resourceId: Future[Option[T]], ifDefinedStatus: Int, ifEmptyStatus: Int): Route =
+  def completeWithLocationHeader[T](resourceId: Future[T], ifDefinedStatus: Int, ifEmptyStatus: Int): Route =
     onSuccess(resourceId) {
-      case Some(t) => completeWithLocationHeader(ifDefinedStatus, t)
-      case None => complete(ifEmptyStatus, None)
+      case t => completeWithLocationHeader(ifDefinedStatus, t)
+      case _ => complete(ifEmptyStatus, None)
     }
 
-  def completeWithLocationHeader[T](status: Int, resourceId: T): Route =
-    extractRequestContext { requestContext =>
+
+  def completeWithLocationHeader[T](status: Int, resourceId: T): Route = extractRequestContext { requestContext =>
       val request = requestContext.request
       val location = request.uri.copy(path = request.uri.path / resourceId.toString)
       respondWithHeader(Location(location)) {
         complete(status, None)
       }
     }
-
   def complete[T: ToResponseMarshaller](resource: Future[Option[T]]): Route =
     onSuccess(resource) {
-      case Some(t) => complete(ToResponseMarshallable(t))
-      case None => complete(404, None)
+      case Some(t) => println("complete")
+        complete(ToResponseMarshallable(t))
+      case None =>
+        println("None")
+        complete(404, None)
     }
 
   def complete(resource: Future[Unit]): Route = onSuccess(resource) { complete(204, None) }

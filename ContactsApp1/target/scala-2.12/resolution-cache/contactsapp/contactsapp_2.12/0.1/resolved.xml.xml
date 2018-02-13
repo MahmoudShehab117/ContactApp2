@@ -4,7 +4,7 @@
 		module="contactsapp_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20180103221548"
+		publication="20180201123348"
 	>
 		<description>
 		ContactsApp
@@ -41,5 +41,7 @@
 		<dependency org="ch.megard" name="akka-http-cors_2.12" rev="0.2.2" conf="compile->default(compile)"/>
 		<dependency org="com.h2database" name="h2" rev="1.4.192" conf="compile->default(compile)"/>
 		<dependency org="io.getquill" name="quill-jdbc_2.12" rev="2.3.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.slick" name="slick_2.12" rev="3.2.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.slick" name="slick-hikaricp_2.12" rev="3.2.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

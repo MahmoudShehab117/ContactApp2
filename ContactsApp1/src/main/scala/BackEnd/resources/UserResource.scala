@@ -1,6 +1,6 @@
 package BackEnd.resources
 import akka.http.scaladsl.server.Route
-import BackEnd.entity.{Contact, ContactUpdate, Users}
+import BackEnd.entity.{Contact, Users}
 import BackEnd.routing.MyResource
 import akka.pattern.ask
 import BackEnd.services._

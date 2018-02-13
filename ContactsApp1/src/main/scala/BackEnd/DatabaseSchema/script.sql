@@ -1,16 +1,18 @@
 DROP TABLE IF EXISTS Contact;
-CREATE TABLE Contact(
-Id INT,
-firstName varchar(50),
-lastName varchar(50),
-email varchar(50),
-phone varchar(50)
+create table CONTACT
+(
+    ID INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    FIRSTNAME VARCHAR NOT NULL,
+    LASTNAME VARCHAR NOT NULL,
+    EMAIL VARCHAR NOT NULL,
+    PHONE VARCHAR NOT NULL
 );
+
 
 DROP TABLE IF EXISTS Users;
 CREATE TABLE Users(
-userName varchar(50),
-password varchar(500)
+    userName varchar(50),
+    password varchar(500)
 );
 
 

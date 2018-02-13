@@ -26,7 +26,6 @@ class UserService(implicit  val executionContext : ExecutionContext) {
 
   //check for userName
   def compareUser(user : Users):Future[Option[String]]=Future{
-
     val findUser = ctx.run( quote {query[Users].filter(user1 => user1.userName == lift(user.userName) && user1.password == lift(user.password))}).headOption
     findUser match{
       case None => None

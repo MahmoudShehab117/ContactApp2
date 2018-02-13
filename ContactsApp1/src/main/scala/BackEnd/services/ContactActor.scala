@@ -1,20 +1,21 @@
 package BackEnd.services
 
-import BackEnd.entity.{Contact, ContactUpdate}
-import akka.Done
-import akka.actor.Actor
 
-import scala.concurrent.ExecutionContext
+import BackEnd.entity.{Contact, ContactDetails, Phone}
+import akka.actor.{Actor, ActorLogging}
+import scala.concurrent.Future
 
 
 case class CreateContact(contact:Contact)
-case class GetContact(id:Int)
 case class GetAllContact()
-case class UpdateContact(id:Int, update:ContactUpdate)
+case class UpdateContact(id:Int, update:Contact)
 case class DeleteContact(id:Int)
+case class GetContactDetails(id:Int)
+case class CreateContactDetails(contactDetails: ContactDetails)
+case class UpdateContactDetails(id:Int,update:ContactDetails)
 
 
-class ContactActor extends Actor {
+class ContactActor extends Actor with ActorLogging {
 
   import context.dispatcher
 
@@ -22,27 +23,19 @@ class ContactActor extends Actor {
 
   override def receive: Receive = {
 
-   case CreateContact(contact:Contact) =>
-     sender() ! contactService.createContact(contact)
-
-   case GetContact(id:Int) => sender() ! contactService.getContact(id)
-
-
-   case GetAllContact() => sender() ! contactService.getAllContacts()
-
-
-   case DeleteContact(id:Int) => contactService.deleteContact(id)
-       sender() ! Done
-
-
-   case UpdateContact(id :Int ,contactUpdated: ContactUpdate) =>
-     contactService.updateContact(id,contactUpdated)
-     sender() ! Done
-
-
+        case CreateContactDetails(contact: ContactDetails) =>
+          //super one from yehia
+          val newContact: Future[ContactDetails] = contactService.createContactDetails(contact)
+          log.info(s"got request in create contact, payload is $newContact")
+          sender ! newContact
+        case GetAllContact() => sender() ! contactService.getAllContacts()
+        case DeleteContact(id:Int) => sender() ! contactService.deleteContact(id)
+        case UpdateContact(id :Int ,contactUpdated: Contact) => sender() ! contactService.updateContact(id,contactUpdated)
+        case GetContactDetails(id:Int) => sender() ! contactService.getContactDetails(id)
+        case UpdateContactDetails(id :Int ,contactUpdated: ContactDetails) =>
+          sender() ! contactService.updateContactDetails(id,contactUpdated)
 
   }
-
 }
 
 

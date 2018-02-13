@@ -325,6 +325,25 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.slick#slick_2.12;3.2.0 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.slick#slick_2.12;3.2.0
+[debug] 	found com.typesafe.slick#slick_2.12;3.2.0 in sbt-chain
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: io.getquill#quill-sql_2.12;2.3.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: io.getquill#quill-sql_2.12;2.3.2
@@ -358,6 +377,21 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.slick#slick-hikaricp_2.12;3.2.0 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.slick#slick-hikaricp_2.12;3.2.0
+[debug] 	found com.typesafe.slick#slick-hikaricp_2.12;3.2.0 in sbt-chain
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: com.h2database#h2;1.4.192 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: com.h2database#h2;1.4.192
@@ -676,6 +710,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->compile]
@@ -700,6 +750,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->compile]
@@ -997,6 +1059,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime->compile]
@@ -1021,6 +1099,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime->compile]
@@ -1322,6 +1412,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->compile]
@@ -1346,6 +1452,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->compile]
@@ -1643,6 +1761,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime->compile]
@@ -1667,6 +1801,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime->compile]
@@ -1964,6 +2110,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [test->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [test->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [test->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [test->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [test->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [test->compile]
@@ -1988,6 +2150,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [test->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [test->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [test->compile]
@@ -2292,6 +2466,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->compile]
@@ -2316,6 +2506,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->compile]
@@ -2615,6 +2817,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile-internal->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile-internal->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile-internal->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile-internal->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile-internal->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile-internal->compile]
@@ -2639,6 +2857,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile-internal->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile-internal->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile-internal->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile-internal->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile-internal->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile-internal->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile-internal->compile]
@@ -2940,6 +3170,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->compile]
@@ -2964,6 +3210,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->compile]
@@ -3261,6 +3519,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime->compile]
@@ -3285,6 +3559,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime->compile]
@@ -3583,6 +3869,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime-internal->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime-internal->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime-internal->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime-internal->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime-internal->compile]
@@ -3607,6 +3909,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime-internal->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime-internal->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime-internal->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime-internal->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime-internal->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime-internal->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime-internal->compile]
@@ -3909,6 +4223,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [compile->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [compile->compile]
@@ -3933,6 +4263,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [compile->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [compile->compile]
@@ -4230,6 +4572,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [runtime->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [runtime->compile]
@@ -4254,6 +4612,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [runtime->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [runtime->compile]
@@ -4551,6 +4921,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [test->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [test->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [test->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [test->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [test->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [test->compile]
@@ -4575,6 +4961,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [test->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [test->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [test->compile]
@@ -4874,6 +5272,22 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [test-internal->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [test-internal->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.akka#akka-parsing_2.12;10.0.10 [test-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->master(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->compile(*)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick_2.12;3.2.0 [test-internal->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [test-internal->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [test-internal->runtime(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->io.getquill#quill-sql_2.12;2.3.2 [test-internal->compile]
@@ -4898,6 +5312,18 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile(*)]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test-internal->default]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test-internal->runtime]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test-internal->compile]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test-internal->master]
+[debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.typesafe.slick#slick-hikaricp_2.12;3.2.0 [test-internal->master]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [test-internal->default]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [test-internal->runtime]
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->com.h2database#h2;1.4.192 [test-internal->compile]
@@ -5013,74 +5439,32 @@
 [debug] == resolving dependencies contactsapp#contactsapp$sources;0.1->jline#jline;2.14.3 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)
-[debug] no default ivy user dir defined: set to /home/mahmoud/.ivy2
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.12;3.7.2!scala-logging_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.2!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalamacros#resetallattrs_2.12;1.0.0!resetallattrs_2.12.jar(src)
+[debug] 	[NOT REQUIRED] de.heikoseeberger#akka-http-json4s_2.12;1.16.0!akka-http-json4s_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src)
 [debug] no default ivy user dir defined: set to /home/mahmoud/.ivy2
-[debug] no default ivy user dir defined: set to /home/mahmoud/.ivy2
-[debug] no default ivy user dir defined: set to /home/mahmoud/.ivy2
-[debug] no default ivy user dir defined: set to /home/mahmoud/.ivy2
-[debug] no default ivy user dir defined: set to /home/mahmoud/.ivy2
-[debug] no default ivy user dir defined: set to /home/mahmoud/.ivy2
-[debug] no default ivy user dir defined: set to /home/mahmoud/.ivy2
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] io.getquill#quill-core_2.12;2.3.2!quill-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.5!joda-time.jar(src)
+[debug] 	[NOT REQUIRED] com.zaxxer#HikariCP;2.7.4!HikariCP.jar(src)
 [debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to /home/mahmoud/.ivy2/cache
-[debug] no default cache defined: set to /home/mahmoud/.ivy2/cache
-[debug] no default cache defined: set to /home/mahmoud/.ivy2/cache
-[debug] no default cache defined: set to /home/mahmoud/.ivy2/cache
 [debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/mahmoud/.ivy2/cache
-[debug] no default cache defined: set to /home/mahmoud/.ivy2/cache
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/mahmoud/.ivy2/cache
-[debug] no default cache defined: set to /home/mahmoud/.ivy2/cache
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)
 [debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.json4s#json4s-native_2.12;3.5.2!json4s-native_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.0.10!akka-http-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.12;3.5.2!json4s-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] io.getquill#quill-jdbc_2.12;2.3.2!quill-jdbc_2.12.jar(src)
 [debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.0.10!akka-parsing_2.12.jar(src)
 [debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (37ms)
-[debug] 	default cache: /home/mahmoud/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	shared [file]
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	local [file]
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (42ms)
+[debug] settings loaded (32ms)
 [debug] 	default cache: /home/mahmoud/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -5089,95 +5473,27 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (51ms)
-[debug] 	default cache: /home/mahmoud/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (49ms)
-[debug] 	default cache: /home/mahmoud/.ivy2/cache
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (58ms)
-[debug] including url: jar:file:/home/mahmoud/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (56ms)
-[debug] 	default cache: /home/mahmoud/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default cache: /home/mahmoud/.ivy2/cache
-[debug] 	default [chain] [local, main]
-[debug] settings loaded (57ms)
-[debug] 	public [ibiblio]
-[debug] 	default resolver: default
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	-- 5 resolvers:
-[debug] 	default cache: /home/mahmoud/.ivy2/cache
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	default resolver: default
-[debug] 	main [chain] [shared, public]
-[debug] 	-- 5 resolvers:
-[debug] 	local [file]
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (167ms)
-[debug] 	default cache: /home/mahmoud/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] ch.megard#akka-http-cors_2.12;0.2.2!akka-http-cors_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.4.19!akka-stream_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.h2database#h2;1.4.192!h2.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.1!ssl-config-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.4.19!akka-actor_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.json4s#json4s-ext_2.12;3.5.2!json4s-ext_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.2!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.0.10!akka-http_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.12;2.4.18!akka-slf4j_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.12;3.5.2!json4s-ast_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.joda#joda-convert;1.8.1!joda-convert.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.4.19!akka-stream_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.4.19!akka-actor_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.2!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.2!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.2!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)
-[debug] 	[NOT REQUIRED] com.zaxxer#HikariCP;2.7.4!HikariCP.jar(src)
-[debug] 	[NOT REQUIRED] io.getquill#quill-jdbc_2.12;2.3.2!quill-jdbc_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.0.10!akka-parsing_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.1!ssl-config-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-ext_2.12;3.5.2!json4s-ext_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.slick#slick_2.12;3.2.0!slick_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.slick#slick-hikaricp_2.12;3.2.0!slick-hikaricp_2.12.jar(src)
 [debug] 	[NOT REQUIRED] io.getquill#quill-sql_2.12;2.3.2!quill-sql_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.12;3.5.2!json4s-scalap_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] io.getquill#quill-core_2.12;2.3.2!quill-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.5!joda-time.jar(src)
-[debug] 	[NOT REQUIRED] de.heikoseeberger#akka-http-json4s_2.12;1.16.0!akka-http-json4s_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src)
-[debug] 	[NOT REQUIRED] org.json4s#json4s-native_2.12;3.5.2!json4s-native_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.12;3.5.2!json4s-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scalamacros#resetallattrs_2.12;1.0.0!resetallattrs_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.0.10!akka-http-core_2.12.jar(src)
-[debug] :: resolution report :: resolve 3546ms :: artifacts dl 526ms
+[debug] 	[NOT REQUIRED] com.h2database#h2;1.4.192!h2.jar(src)
+[debug] 	[NOT REQUIRED] ch.megard#akka-http-cors_2.12;0.2.2!akka-http-cors_2.12.jar(src)
+[debug] :: resolution report :: resolve 1700ms :: artifacts dl 357ms
 [debug] 	report for contactsapp#contactsapp$sources;0.1 compile produced in /home/mahmoud/ContactApp2/ContactsApp1/target/scala-2.12/resolution-cache/reports/contactsapp-contactsapp$sources-compile.xml
 [debug] 	report for contactsapp#contactsapp$sources;0.1 runtime produced in /home/mahmoud/ContactApp2/ContactsApp1/target/scala-2.12/resolution-cache/reports/contactsapp-contactsapp$sources-runtime.xml
 [debug] 	report for contactsapp#contactsapp$sources;0.1 test produced in /home/mahmoud/ContactApp2/ContactsApp1/target/scala-2.12/resolution-cache/reports/contactsapp-contactsapp$sources-test.xml
@@ -5189,4 +5505,4 @@
 [debug] 	report for contactsapp#contactsapp$sources;0.1 plugin produced in /home/mahmoud/ContactApp2/ContactsApp1/target/scala-2.12/resolution-cache/reports/contactsapp-contactsapp$sources-plugin.xml
 [debug] 	report for contactsapp#contactsapp$sources;0.1 pom produced in /home/mahmoud/ContactApp2/ContactsApp1/target/scala-2.12/resolution-cache/reports/contactsapp-contactsapp$sources-pom.xml
 [debug] 	report for contactsapp#contactsapp$sources;0.1 scala-tool produced in /home/mahmoud/ContactApp2/ContactsApp1/target/scala-2.12/resolution-cache/reports/contactsapp-contactsapp$sources-scala-tool.xml
-[debug] 	resolve done (3546ms resolve - 526ms download)
+[debug] 	resolve done (1700ms resolve - 357ms download)

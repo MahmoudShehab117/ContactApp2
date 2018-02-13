@@ -8,6 +8,10 @@ angular.module('Services')
      });
    })
 
+.factory('ReportService', function($resource) {
+        return $resource('http://localhost:5000/reports');
+      })
+
 .factory('AuthenticationService', function ($resource){
 
                  var LoginResource = $resource("http://localhost:5000/users");
