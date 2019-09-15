@@ -1,0 +1,68 @@
+<div class="w3-container">
+    <div class="w3-bar w3-teal" ng-controller="contactsListController">
+        <div class="w3-bar-item w3-teal">
+            <a  class="w3-btn w3-teal w3-ripple w3-border-green" data-ng-href="#!/contacts-list">Contacts</a>
+        </div>
+        <div class="w3-bar-item w3-teal">
+            <a  class="w3-btn w3-teal w3-ripple w3-border-green" data-ng-href="#!/add-contact">Create New Contact</a>
+        </div>
+        <div class="w3-bar-item w3-teal">
+            <a class="w3-btn w3-teal w3-ripple w3-border-green" data-ng-href="#!/login">Logout</a>
+        </div></div>
+
+    <h3 ng-show="editHideFlag">Add New Contact:</h3>
+    <h3 ng-show="!editHideFlag">Edit Contact:</h3>
+
+    <form>
+
+<div class="w3-cell-row">
+    <div class="w3-container w3-cell">
+        <label>First Name:</label>
+        <input class="w3-input " type="text" ng-model="contact.contact.firstName" placeholder="First Name">
+        <br>
+        <label>Last Name:</label>
+        <input class="w3-input " type="text" ng-model="contact.contact.lastName" placeholder="Last Name">
+        <br>
+        <label>email:</label>
+        <input class="w3-input " type="email" ng-model="contact.contact.email" placeholder="email">
+        </br>
+
+        <button ng-show="editHideFlag"  ng-click="addContact()" class="w3-btn w3-green w3-ripple">&#10004; Save</button>
+        </br>
+        <button ng-show="!editHideFlag" ng-click="saveEditContact()" class="w3-btn w3-green w3-ripple">&#10004; Save Edits</button>
+    </div>
+
+    <div>
+        <div style="width:50%;">
+            <br>
+            <label>phone Number:</label>
+            <input class="w3-input" type="text" placeholder="phone Number" ng-model="phone">
+            <br>
+            <button class="w3-btn w3-ripple w3-green w3-ripple w3-circle" ng-click="addPhone(phone)">Add This Phone</button>
+            <br>
+        </div>
+
+            <div class=" w3-ul w3-panel w3-card-4 w3-cell" style="width:50%;">
+            <br>
+            <table class="w3-table w3-bordered w3-striped">
+                <tr>
+                    <th ng-show="!editHideFlag">{{contact.contact.firstName}}'s Phone Numbers</th>
+                    <th ng-show="editHideFlag">Phone Numbers</th>
+                    <th>Delete</th>
+                </tr>
+                <tr ng-repeat="contactDetail in contact.phones">
+                    <td style="width:75%;">{{contactDetail.phone}}</td>
+                    <td>
+                        <button class="w3-btn w3-ripple w3-red" ng-click="deletePhone(contactDetail)">&#9998; X</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>
+        </br>
+    </form>
+
+
+</div>
